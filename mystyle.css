@@ -189,3 +189,42 @@ footer ul {
 footer h1 {
     font-size: 1.1em;
 }
+
+@media all and (max-width: 1024px) {
+    #conteneur {
+        width: auto;
+    }
+    nav {
+        width: auto;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    nav li {
+        padding: 0 0 5px 4px;
+    }
+    nav a {
+        font-size: 1.1em;
+    }
+    nav a:hover {
+        border-bottom: 0;
+    }
+    #image_front {
+        display: none;
+    }
+    section {
+        flex-direction: column;
+    }
+    article,
+    aside {
+        width: auto;
+        margin-bottom: 15px;
+    }
+    #fleche-bull {
+        display: none;
+    }
+    .logo_photo {
+        float: right;
+        margin-left: 15px;
+    }
+}
